@@ -32,6 +32,7 @@ fontfamily: "Poppins", sans-serif;
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 /* Color themes and variables*/
@@ -51,4 +52,62 @@ fontfamily: "Poppins", sans-serif;
 body {
   background-color: var(--darkBlueMagenta);
   font-family: var(--fontFamily);
+}
+
+/* Navbar
+==================================================*/
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 30px;
+  color: var(--white);
+  font-family: var(--fontfamily);
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  padding: 15px;
+  width: 40px;
+  height: 40px;
+  background-color: var(--darkGray);
+  border-radius: 50%;
+  color: var(--white);
+}
+
+.navbarDesktop ul {
+  padding: 15px;
+}
+
+.navbarDesktop li {
+  display: inline;
+  padding: 15px;
+  list-style: none;
+  cursor: pointer;
+}
+
+.navbarDesktop li:hover {
+  color: var(--mediumBrown);
+}
+
+.navbarMobile {
+  display: none;
+}
+
+@media screen and (max-width: 758px) {
+  .navbarDesktop {
+    display: none;
+  }
+  .navbar {
+    padding: 6px;
+  }
+
+  .navbarMobile {
+    display: block;
+    padding: 6px;
+    font-size: 1.8rem;
+  }
 }

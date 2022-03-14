@@ -227,8 +227,60 @@ body {
     font-size: 1.2rem;
   }
   .services h4 {
-    margin-left: 20px;
+    padding-left: 20px;
     width: 100%;
     padding-bottom: 20px;
+  }
+}
+
+
+/* Company
+==================================================*/
+.company {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-bottom: 20px;
+  padding-left: 30px;
+}
+
+.company div {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 15px;
+  align-items: center;
+  color: var(--darkBlue);
+  font-size: 2rem;
+}
+
+.company div i {
+  color: var(--darkBlue);
+  font-size: 3rem;
+  padding-right: 10px;
+}
+
+@media screen and (max-width: 758px) {
+  .company {
+    margin-top: 5px;
+    padding: 0 6px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    border-bottom: 5px solid var(--darkBlue);
+  }
+
+  .company div {
+    height: 100px;
+    justify-content: flex-start;
+    color: var(--darkBlue);
+    font-size: 1rem;
+    margin: 6px;
+
+  }
+
+  .company div i {
+    color: var(--darkBlue);
+    font-size: 3rem;
+    padding-right: 10px;
   }
 }

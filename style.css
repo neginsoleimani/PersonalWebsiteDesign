@@ -1,4 +1,54 @@
+/*
+* Personal Website
+* Created by : Negin Soleimani
+* website : www.negasol.ir
+*/
+
+/* Table of Content
+==================================================
+	- Google fonts & font family -
+	- typography -
+	- General -
+    - Preloader -
+	- Header -
+    - Services section -
+    - Work section -
+    - Blog section -
+    - Contact section -
+    - Responsive media queries -
+*/
+
+/* Google fonts & font family
+==================================================*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+/*
+fontfamily: "Poppins", sans-serif;
+*/
+
+/* General
+==================================================*/
+
 * {
   padding: 0;
   margin: 0;
+}
+
+/* Color themes and variables*/
+
+:root {
+  --darkBlueMagenta: #1f1d2b;
+  --darkBlue: #252836;
+  --darkGray: #576361;
+  --mediumGray: #aaaaaa;
+  --lightBlueMagenta: #e3e3e5;
+  --mediumBrown: #ddac58;
+  --white: #ffffff;
+
+  --fontFamily: "Poppins", sans-serif;
+}
+
+body {
+  background-color: var(--darkBlueMagenta);
+  font-family: var(--fontFamily);
 }

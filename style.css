@@ -62,7 +62,6 @@ body {
   justify-content: space-between;
   padding: 30px 30px;
   color: var(--white);
-  font-family: var(--fontfamily);
 }
 
 .logo {
@@ -109,5 +108,127 @@ body {
     display: block;
     padding: 6px;
     font-size: 1.8rem;
+  }
+}
+
+/* Main
+==================================================*/
+
+.main {
+  display: grid;
+  grid-template-columns: 1.5fr repeat(2, 1fr);
+  padding: 50px 30px;
+}
+
+.aboutMe {
+  padding: 15px;
+}
+
+.aboutMe h1 {
+  color: var(--white);
+  font-size: 3.5rem;
+}
+
+.aboutMe h4 {
+  color: var(--mediumGray);
+  font-size: 1rem;
+  font-weight: 100;
+}
+
+.aboutMe a {
+  color: var(--mediumBrown);
+  font-weight: 100;
+  cursor: pointer;
+}
+
+.aboutMe div {
+  margin-bottom: 20px;
+}
+
+.myImg img {
+  width: 90%;
+}
+
+.experienceBox {
+  background-color: var(--darkBlue);
+  height: 60%;
+}
+
+.experienceBox div {
+  padding-top: 20px;
+  margin-left: 20px;
+  width: 30%;
+}
+
+.experienceBox h3 {
+  color: var(--lightBlueMagenta);
+  font-size: 1.5rem;
+}
+
+.experienceBox h4 {
+  font-size: 0.9rem;
+  font-weight: 100;
+  color: var(--mediumGray);
+}
+
+.services {
+  width: 50%;
+  padding: 20px 0 20px 0;
+}
+
+.services h3 {
+  padding-bottom: 10px;
+  font-size: 1.2rem;
+  font-weight: 100;
+  color: var(--lightBlueMagenta);
+}
+
+.services h4 {
+  font-size: 1rem;
+  font-weight: 100;
+  color: var(--mediumGray);
+}
+
+@media screen and (max-width: 758px) {
+  .main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.2fr 0.8fr 1fr;
+    padding: 6px;
+  }
+
+  .aboutMe h1 {
+    color: var(--white);
+    font-size: 1.6rem;
+  }
+
+  .aboutMe h4 {
+    font-size: 0.9rem;
+  }
+
+  .aboutMe a {
+    color: var(--mediumBrown);
+    font-weight: 100;
+  }
+
+  .myImg img {
+    width: 100%;
+  }
+
+  .services {
+    padding-top: 40px;
+    margin: 6px 0;
+    width: 100%;
+    border: 5px solid var(--darkBlue);
+  }
+
+  .services h3 {
+    margin-left: 20px;
+    font-size: 1.2rem;
+  }
+  .services h4 {
+    margin-left: 20px;
+    width: 100%;
+    padding-bottom: 20px;
   }
 }

@@ -216,7 +216,7 @@ body {
   }
 
   .services {
-    padding-top: 40px;
+    padding: 40px 0;
     margin: 6px 0;
     width: 100%;
     border: 5px solid var(--darkBlue);
@@ -229,10 +229,8 @@ body {
   .services h4 {
     padding-left: 20px;
     width: 100%;
-    padding-bottom: 20px;
   }
 }
-
 
 /* Company
 ==================================================*/
@@ -275,7 +273,6 @@ body {
     color: var(--darkBlue);
     font-size: 1rem;
     margin: 6px;
-
   }
 
   .company div i {

@@ -281,3 +281,159 @@ body {
     padding-right: 10px;
   }
 }
+
+/* Services
+==================================================*/
+
+.myProject {
+  margin-top: 6rem;
+  display: grid;
+  grid-template-columns: 1.5fr 2fr;
+}
+
+.myProjectBox-container {
+  background-color: var(--darkBlue);
+  padding-bottom: 3rem;
+}
+
+.myProjectCard {
+  padding: 3%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ProjectCard-img img {
+  width: 45%;
+  width: 100px;
+  height: 100px;
+}
+
+.ProjectCard-title {
+  width: 50%;
+}
+
+.ProjectCard-title h3 {
+  color: #e3e3e5;
+  font-size: 2rem;
+  padding-bottom: 5px;
+}
+
+.ProjectCard-title h4 {
+  color: var(--mediumGray);
+  font-size: 1rem;
+  font-weight: 100;
+}
+
+.ProjecCard-more {
+  width: 5%;
+}
+
+.ProjecCard-more i {
+  font-size: 1.5rem;
+  color: #e3e3e5;
+  cursor: pointer;
+}
+
+.ProjecCard-more i:hover {
+  color: var(--mediumBrown);
+}
+
+.myProjectText {
+  padding-left: 30px;
+}
+.myProjectText h1 {
+  padding-left: 15px;
+  color: var(--white);
+  font-size: 3.5rem;
+}
+
+.myProjectText h4 {
+  padding-left: 15px;
+  margin-top: 1%;
+
+  color: var(--mediumGray);
+  font-size: 1rem;
+  width: 80%;
+  font-weight: 100;
+}
+
+.myProjectText-box {
+  margin: 1rem 0;
+}
+
+.myProjectText-box h1 {
+  padding-left: 15px;
+  font-size: 2.5rem;
+  color: var(--mediumBrown);
+}
+
+.myProjectText-box h4 {
+  padding-left: 15px;
+  font-size: 1rem;
+  color: var(--mediumGray);
+}
+
+@media screen and (max-width: 758px) {
+  .myProject {
+    margin-top: 6rem;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .myProjectBox-container {
+    background-color: var(--darkBlue);
+    padding-bottom: 2rem;
+  }
+
+  .myProjectCard {
+    padding: 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .ProjectCard-img img {
+    width: 45%;
+    width: 80px;
+    height: 80px;
+  }
+
+  .ProjectCard-title {
+    width: 45%;
+  }
+
+  .ProjectCard-title h3 {
+    color: var(--lightBlueMagenta);
+    font-size: 1rem;
+    padding-bottom: 5px;
+  }
+
+  .ProjectCard-title h4 {
+    color: var(--mediumGray);
+    font-size: 0.8rem;
+    font-weight: 100;
+  }
+
+  .ProjecCard-more {
+    width: 10%;
+  }
+
+  .ProjecCard-more i {
+    font-size: 1.5rem;
+    color: var(--lightBlueMagenta);
+    cursor: pointer;
+  }
+
+  .myProjectText {
+    padding: 6px;
+  }
+
+  .myProjectText h4 {
+    width: 90%;
+  }
+
+  .myProjectText-box {
+    margin: 2rem 0;
+  }
+}

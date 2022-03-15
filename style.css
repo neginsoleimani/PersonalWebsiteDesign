@@ -89,6 +89,7 @@ body {
 }
 
 .navbarDesktop li:hover {
+  transition: 0.5s ease;
   color: var(--mediumBrown);
 }
 
@@ -336,6 +337,7 @@ body {
 }
 
 .ProjecCard-more i:hover {
+  transition: 0.5s ease;
   color: var(--mediumBrown);
 }
 
@@ -489,7 +491,6 @@ body {
   margin-bottom: 2%;
 }
 
-
 @media screen and (max-width: 758px) {
   .latestWork-container {
     margin-top: 8%;
@@ -513,5 +514,54 @@ body {
   .latestWorkbox img {
     width: 100%;
     padding: 0;
+  }
+}
+
+/* Work
+==================================================*/
+
+.socialMedias-container {
+  margin-bottom: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer h3 {
+  border-top: 3px solid var(--darkBlue);
+  margin-top: 5%;
+  color: var(--darkBlue);
+  text-align: center;
+}
+
+.socialMedias-container div {
+  color: var(--darkBlue);
+  font-size: 1.5rem;
+  padding: 2%;
+}
+.socialMedias-container i {
+  cursor: pointer;
+}
+
+.socialMedias-container i:hover {
+  color: var(--mediumGray);
+  transition: 0.5s ease;
+}
+
+
+@media screen and (max-width: 758px) {
+  .socialMedias-container {
+    margin-top: 3%;
+    margin-bottom: 3%;
+  }
+
+  .socialMedias-container div {
+    padding: 3.5%;
+  }
+
+  .socialMedias-container div i {
+    color: var(--darkBlue);
+    margin-bottom: 3%;
+    font-size: 1.3rem;
   }
 }

@@ -488,7 +488,7 @@ body {
   font-weight: 100;
   font-size: 0.9rem;
   color: var(--mediumGray);
-  margin-bottom: 2%;
+  margin-bottom: 4%;
 }
 
 @media screen and (max-width: 758px) {
@@ -517,7 +517,7 @@ body {
   }
 }
 
-/* Work
+/* Social medias
 ==================================================*/
 
 .socialMedias-container {

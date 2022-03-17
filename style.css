@@ -63,6 +63,7 @@ a:visited {
   color: var(--lightBlueMagenta);
 }
 a:hover {
+  transition: 0.5s ease;
   color: var(--mediumBrown);
 }
 
@@ -98,11 +99,6 @@ a:hover {
   padding: 15px;
   list-style: none;
   cursor: pointer;
-}
-
-.navbarDesktop li:hover {
-  transition: 0.5s ease;
-  color: var(--mediumBrown);
 }
 
 .navbarMobile {
@@ -554,10 +550,6 @@ footer h3 {
   cursor: pointer;
 }
 
-.socialMedias-container i:hover {
-  color: var(--mediumBrown);
-  transition: 0.5s ease;
-}
 
 @media screen and (max-width: 758px) {
   .socialMedias-container {

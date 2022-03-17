@@ -54,6 +54,18 @@ body {
   font-family: var(--fontFamily);
 }
 
+a:link {
+  color: var(--lightBlueMagenta);
+  text-decoration: none;
+}
+
+a:visited {
+  color: var(--lightBlueMagenta);
+}
+a:hover {
+  color: var(--mediumBrown);
+}
+
 /* Navbar
 ==================================================*/
 
@@ -547,7 +559,6 @@ footer h3 {
   color: var(--mediumGray);
   transition: 0.5s ease;
 }
-
 
 @media screen and (max-width: 758px) {
   .socialMedias-container {

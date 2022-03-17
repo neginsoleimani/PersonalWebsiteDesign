@@ -547,7 +547,6 @@ footer h3 {
 }
 
 .socialMedias-container div {
-  color: var(--darkBlue);
   font-size: 1.5rem;
   padding: 2%;
 }
@@ -556,7 +555,7 @@ footer h3 {
 }
 
 .socialMedias-container i:hover {
-  color: var(--mediumGray);
+  color: var(--mediumBrown);
   transition: 0.5s ease;
 }
 
@@ -571,7 +570,6 @@ footer h3 {
   }
 
   .socialMedias-container div i {
-    color: var(--darkBlue);
     margin-bottom: 3%;
     font-size: 1.3rem;
   }

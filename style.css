@@ -108,8 +108,8 @@ a:hover {
 .mobileMenu {
   display: none;
   position: fixed;
-  width: 96.5%;
-  height: 98.3%;
+  width:100vw;
+  height:100vh;
   background: rgba(37, 40, 54, 0.9);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);

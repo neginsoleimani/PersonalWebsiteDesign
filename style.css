@@ -128,7 +128,7 @@ a:hover {
   color: var(--mediumBrown);
 }
 
-@media screen and (max-width: 758px) {
+@media screen and (max-width: 800px) {
   .mobileMenu {
     display: none;
   }

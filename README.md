@@ -22,7 +22,7 @@
 <h1> Features : </h1>
 :art: Change the color theme of the website 
 </br></br>
-:camera: Add your pesonal image in About me section
+:camera: Add your personal image in About me section
 </br></br>
 :information_desk_person: Publish Brief biography and The services you provide in About me section
 </br></br>

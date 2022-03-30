@@ -1,5 +1,5 @@
 const menuBtn = document.querySelector(".navbarMobile");
-const mobileMenu = document.querySelector(".mobileMenu")
+const mobileMenu = document.querySelector(".mobileMenu");
 const closeBtn = document.querySelector(".CloseBtn");
 
 //method of open mobile menu
@@ -14,5 +14,5 @@ const mobileNavbarClose = () =>{
     mobileMenu.style.display="none";
 }
 
-menuBtn.addEventListener("click",mobileNavbarOpen)
-closeBtn.addEventListener("click",mobileNavbarClose)
+menuBtn.addEventListener("click",mobileNavbarOpen);
+closeBtn.addEventListener("click",mobileNavbarClose);
